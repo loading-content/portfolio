@@ -1,0 +1,35 @@
+#content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #minesweeper {
+    padding: 20px;
+    width: 90%;
+    background-color: #f1f1f1;
+    height: 300px;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 2px;
+    background-color: black;
+  }
+  .cell {
+    background-color: gray;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .revealed {
+    background-color: white;
+  }

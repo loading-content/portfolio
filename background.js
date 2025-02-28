@@ -3,7 +3,6 @@ const ctx = canvas.getContext("2d");
 document.body.appendChild(canvas);
 
 document.body.style.margin = "0";
-document.body.style.overflow = "hidden";
 document.body.style.position = "relative";
 
 canvas.width = window.innerWidth;

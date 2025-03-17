@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <link href="navbar.css" rel="stylesheet" type="text/css"/>
         <ul>
             <li> <a href="index.html">home</a> </li>
-            <li> <a href="projects.html">projecs</a> </li>
-            <li> <a href="aboutme.html">about moi</a> </li>
-            <li> <a href="contact.html">contect</a> </li>
+            <li> <a href="projects.html">projects</a> </li>
+            <li> <a href="aboutme.html">about me</a> </li>
+            <li> <a href="contact.html">contact</a> </li>
         </ul>
       `;
     }

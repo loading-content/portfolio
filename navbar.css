@@ -15,10 +15,10 @@
   }
   #navbar a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 3vw;
     color: #DDE0DC;
     display: block;
-    padding: 20px 30px;
+    padding: 1vw 3vw;
     text-align: center;
   }
   #navbar li:hover {

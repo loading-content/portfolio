@@ -15,7 +15,7 @@
     max-height: 100%;
 }
 #text{
-    grid-column: 1 / 40;
+    grid-column: 1 / 39;
 }
 #img{
     grid-column: 40 / 49;

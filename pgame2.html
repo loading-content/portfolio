@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/pgame2.css" rel="stylesheet" type="text/css"/>
     <title>Desktopper</title>
 </head>
 <body>
@@ -22,11 +23,17 @@
                     In short I got as far as having some simple minigames with basic graphics and basic functionality.</p>
             </div>
             <div>
-                <h2>minigames</h2>
+                <h2>Minigames</h2>
                 <p>These minigames were the first and easiest games I could think of to make for this project. 
                     These games being: PixelIvaders (space invaders), FlappyPixel (flappy bird), and PixelFormer (a very simple platformer), all of which can be seen below. 
                     As you can tell by the elegant naming scheme, they all include the word ‘pixel’ in them, this is because I didn’t actually want to do much with the graphics because of the aforementioned time crunch I was in at the time.</p>
-                    <img src="images/desktopper/flappypixel.png" alt="">
+                <img id="minigames" src="images/desktopper/desktop.png" alt="">
+                <div id="buttons">
+                    <div id="b1"><button onclick="document.getElementById('minigames').src='images/desktopper/desktop.png'">Desktop</button></div>
+                    <div id="b2"><button onclick="document.getElementById('minigames').src='images/desktopper/pixelinvaders.png'">PixelIvaders</button></div>
+                    <div id="b3"><button onclick="document.getElementById('minigames').src='images/desktopper/flappypixel.png'">FlappyPixel</button></div>
+                    <div id="b4"><button onclick="document.getElementById('minigames').src='images/desktopper/pixelformer.png'">PixelFormer</button></div>
+                </div>
             </div>
         </div>
     </div>
